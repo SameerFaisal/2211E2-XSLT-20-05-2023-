@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="file.xsl" type="text/xsl"?>
+<!DOCTYPE football [
+    <!ELEMENT football (stats*)>
+    <!ELEMENT stats (Year,Host_Country,Winner,Loser,Score)>
+    <!ELEMENT Year (#PCDATA)>
+    <!ELEMENT Host_Country (#PCDATA)>
+    <!ELEMENT Winner (#PCDATA)>
+    <!ELEMENT Loser (#PCDATA)>
+    <!ELEMENT Score (#PCDATA)>
+]>
+<football>
+<stats>
+<Year>2023</Year>
+<Host_Country>Pakistan</Host_Country>
+<Winner>PTI</Winner>
+<Loser>PMLN</Loser>
+<Score>2-0</Score>
+</stats>
+<stats>
+<Year>2023</Year>
+<Host_Country>Pakistan</Host_Country>
+<Winner>MQM</Winner>
+<Loser>PPP</Loser>
+<Score>4-0</Score>
+</stats>
+<stats>
+<Year>2023</Year>
+<Host_Country>Pakistan</Host_Country>
+<Winner>PSP</Winner>
+<Loser>JI</Loser>
+<Score>6-2</Score>
+</stats>
+
+<stats>
+<Year>2023</Year>
+<Host_Country>Pakistan</Host_Country>
+<Winner>ANP</Winner>
+<Loser>MQM-L</Loser>
+<Score>6-2</Score>
+</stats>
+<stats>
+<Year>2023</Year>
+<Host_Country>Pakistan</Host_Country>
+<Winner>ANP</Winner>
+<Loser>MQM-L</Loser>
+<Score>6-2</Score>
+</stats>
+<stats>
+<Year>2023</Year>
+<Host_Country>Pakistan</Host_Country>
+<Winner>ANP</Winner>
+<Loser>MQM-L</Loser>
+<Score>6-2</Score>
+</stats>
+<stats>
+<Year>2023</Year>
+<Host_Country>Pakistan</Host_Country>
+<Winner>ANP</Winner>
+<Loser>MQM-L</Loser>
+<Score>6-2</Score>
+</stats>
+<stats>
+<Year>2023</Year>
+<Host_Country>Pakistan</Host_Country>
+<Winner>ANP</Winner>
+<Loser>MQM-L</Loser>
+<Score>6-2</Score>
+</stats>
+</football>
